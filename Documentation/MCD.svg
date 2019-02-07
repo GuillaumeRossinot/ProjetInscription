@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="357" height="381" view_box="0 0 357 381"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Thu, 17 Jan 2019 23:25:47</desc>
+
+<rect id="frame" x="0" y="0" width="357" height="381" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association TEST -->
+<line x1="58" y1="60" x2="179" y2="136" stroke="#7fbc41" stroke-width="2"/>
+<text x="107" y="84.4804807043" fill="#c51b7d" font-family="Verdana" font-size="12">1,N</text>
+<line x1="297" y1="60" x2="179" y2="136" stroke="#7fbc41" stroke-width="2"/>
+<text x="219" y="89.8025484872" fill="#c51b7d" font-family="Verdana" font-size="12">1,N</text>
+<line x1="58" y1="211" x2="179" y2="136" stroke="#7fbc41" stroke-width="2"/>
+<text x="112" y="192.841933158" fill="#c51b7d" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-TEST">
+	<path d="M 188 111 a 14 14 90 0 1 14 14 V 136 h -46 V 125 a 14 14 90 0 1 14 -14" fill="#b8e186" stroke="#b8e186" stroke-width="0"/>
+	<path d="M 202 136.0 v 11 a 14 14 90 0 1 -14 14 H 170 a 14 14 90 0 1 -14 -14 V 136.0 H 46" fill="#e6f5d0" stroke="#e6f5d0" stroke-width="0"/>
+	<rect x="156" y="111" width="46" height="50" fill="none" rx="14" stroke="#7fbc41" stroke-width="2"/>
+	<line x1="156" y1="136" x2="202" y2="136" stroke="#7fbc41" stroke-width="1"/>
+	<text x="163" y="128.7" fill="#000000" font-family="Verdana" font-size="12">TEST</text>
+</g>
+
+<!-- Association PARTICIPE -->
+<line x1="58" y1="211" x2="179" y2="211" stroke="#7fbc41" stroke-width="2"/>
+<text x="112" y="228.0" fill="#c51b7d" font-family="Verdana" font-size="12">0,N</text>
+<line x1="179" y1="321" x2="179" y2="211" stroke="#7fbc41" stroke-width="2"/>
+<text x="184.0" y="262" fill="#c51b7d" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-PARTICIPE">
+	<path d="M 205 186 a 14 14 90 0 1 14 14 V 211 h -80 V 200 a 14 14 90 0 1 14 -14" fill="#b8e186" stroke="#b8e186" stroke-width="0"/>
+	<path d="M 219 211.0 v 11 a 14 14 90 0 1 -14 14 H 153 a 14 14 90 0 1 -14 -14 V 211.0 H 80" fill="#e6f5d0" stroke="#e6f5d0" stroke-width="0"/>
+	<rect x="139" y="186" width="80" height="50" fill="none" rx="14" stroke="#7fbc41" stroke-width="2"/>
+	<line x1="139" y1="211" x2="219" y2="211" stroke="#7fbc41" stroke-width="1"/>
+	<text x="146" y="203.7" fill="#000000" font-family="Verdana" font-size="12">PARTICIPE</text>
+</g>
+
+<!-- Association INTEGRE -->
+<line x1="58" y1="60" x2="179" y2="60" stroke="#7fbc41" stroke-width="2"/>
+<text x="107" y="52.0" fill="#c51b7d" font-family="Verdana" font-size="12">1,N</text>
+<line x1="297" y1="60" x2="179" y2="60" stroke="#7fbc41" stroke-width="2"/>
+<text x="219" y="52.0" fill="#c51b7d" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-INTEGRE">
+	<path d="M 200 35 a 14 14 90 0 1 14 14 V 60 h -70 V 49 a 14 14 90 0 1 14 -14" fill="#b8e186" stroke="#b8e186" stroke-width="0"/>
+	<path d="M 214 60.0 v 11 a 14 14 90 0 1 -14 14 H 158 a 14 14 90 0 1 -14 -14 V 60.0 H 70" fill="#e6f5d0" stroke="#e6f5d0" stroke-width="0"/>
+	<rect x="144" y="35" width="70" height="50" fill="none" rx="14" stroke="#7fbc41" stroke-width="2"/>
+	<line x1="144" y1="60" x2="214" y2="60" stroke="#7fbc41" stroke-width="1"/>
+	<text x="151" y="52.7" fill="#000000" font-family="Verdana" font-size="12">INTEGRE</text>
+</g>
+
+<!-- Entity PERSONNE -->
+<g id="entity-PERSONNE">
+	<g id="frame-PERSONNE">
+		<rect x="246" y="9" width="102" height="25" fill="#f1b6da" stroke="#f1b6da" stroke-width="0"/>
+		<rect x="246" y="34.0" width="102" height="77" fill="#fde0ef" stroke="#fde0ef" stroke-width="0"/>
+		<rect x="246" y="9" width="102" height="102" fill="none" stroke="#de77ae" stroke-width="2"/>
+		<line x1="246" y1="34" x2="348" y2="34" stroke="#de77ae" stroke-width="1"/>
+	</g>
+	<text x="263" y="26.7" fill="#000000" font-family="Verdana" font-size="12">PERSONNE</text>
+	<text x="251" y="51.7" fill="#000000" font-family="Verdana" font-size="12">num. personne</text>
+	<line x1="251" y1="54" x2="343" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="251" y="68.8" fill="#000000" font-family="Verdana" font-size="12">prenom</text>
+	<text x="251" y="85.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="251" y="102.8" fill="#000000" font-family="Verdana" font-size="12">mail</text>
+</g>
+
+<!-- Entity COMPETITION -->
+<g id="entity-COMPETITION">
+	<g id="frame-COMPETITION">
+		<rect x="120" y="270" width="118" height="25" fill="#f1b6da" stroke="#f1b6da" stroke-width="0"/>
+		<rect x="120" y="295.0" width="118" height="77" fill="#fde0ef" stroke="#fde0ef" stroke-width="0"/>
+		<rect x="120" y="270" width="118" height="102" fill="none" stroke="#de77ae" stroke-width="2"/>
+		<line x1="120" y1="295" x2="238" y2="295" stroke="#de77ae" stroke-width="1"/>
+	</g>
+	<text x="135" y="287.7" fill="#000000" font-family="Verdana" font-size="12">COMPETITION</text>
+	<text x="125" y="312.7" fill="#000000" font-family="Verdana" font-size="12">num. competition</text>
+	<line x1="125" y1="315" x2="232" y2="315" stroke="#000000" stroke-width="1"/>
+	<text x="125" y="329.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="125" y="346.8" fill="#000000" font-family="Verdana" font-size="12">dateCloture</text>
+	<text x="125" y="363.8" fill="#000000" font-family="Verdana" font-size="12">enEquipe</text>
+</g>
+
+<!-- Entity CANDIDAT -->
+<g id="entity-CANDIDAT">
+	<g id="frame-CANDIDAT">
+		<rect x="9" y="177" width="98" height="25" fill="#f1b6da" stroke="#f1b6da" stroke-width="0"/>
+		<rect x="9" y="202.0" width="98" height="43" fill="#fde0ef" stroke="#fde0ef" stroke-width="0"/>
+		<rect x="9" y="177" width="98" height="68" fill="none" stroke="#de77ae" stroke-width="2"/>
+		<line x1="9" y1="202" x2="107" y2="202" stroke="#de77ae" stroke-width="1"/>
+	</g>
+	<text x="25" y="194.7" fill="#000000" font-family="Verdana" font-size="12">CANDIDAT</text>
+	<text x="14" y="219.8" fill="#000000" font-family="Verdana" font-size="12">num. candidat</text>
+	<line x1="14" y1="222" x2="102" y2="222" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="236.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+</g>
+
+<!-- Entity EQUIPE -->
+<g id="entity-EQUIPE">
+	<g id="frame-EQUIPE">
+		<rect x="14" y="26" width="88" height="25" fill="#f1b6da" stroke="#f1b6da" stroke-width="0"/>
+		<rect x="14" y="51.0" width="88" height="43" fill="#fde0ef" stroke="#fde0ef" stroke-width="0"/>
+		<rect x="14" y="26" width="88" height="68" fill="none" stroke="#de77ae" stroke-width="2"/>
+		<line x1="14" y1="51" x2="102" y2="51" stroke="#de77ae" stroke-width="1"/>
+	</g>
+	<text x="34" y="43.7" fill="#000000" font-family="Verdana" font-size="12">EQUIPE</text>
+	<text x="19" y="68.8" fill="#000000" font-family="Verdana" font-size="12">num. equipe</text>
+	<line x1="19" y1="71" x2="96" y2="71" stroke="#000000" stroke-width="1"/>
+	<text x="19" y="85.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+</g>
+</svg>

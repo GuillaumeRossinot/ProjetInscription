@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>EQUIPE</span> (
+    <span class='primary'>num. equipe</span>,
+    <span class='normal'>nom</span>
+  )
+</div>
+<div>
+  <span class='relation'>INTEGRE</span> (
+    <span class='foreign primary'>num. equipe</span>,
+    <span class='foreign primary'>num. personne</span>
+  )
+</div>
+<div>
+  <span class='relation'>PERSONNE</span> (
+    <span class='primary'>num. personne</span>,
+    <span class='normal'>prenom</span>,
+    <span class='normal'>nom</span>,
+    <span class='normal'>mail</span>
+  )
+</div>
+<div>
+  <span class='relation'>TEST</span> (
+    <span class='foreign primary'>num. equipe</span>,
+    <span class='foreign primary'>num. personne</span>,
+    <span class='foreign primary'>num. candidat</span>
+  )
+</div>
+<div>
+  <span class='relation'>CANDIDAT</span> (
+    <span class='primary'>num. candidat</span>,
+    <span class='normal'>nom</span>
+  )
+</div>
+<div>
+  <span class='relation'>PARTICIPE</span> (
+    <span class='foreign primary'>num. candidat</span>,
+    <span class='foreign primary'>num. competition</span>
+  )
+</div>
+<div>
+  <span class='relation'>COMPETITION</span> (
+    <span class='primary'>num. competition</span>,
+    <span class='normal'>nom</span>,
+    <span class='normal'>dateCloture</span>,
+    <span class='normal'>enEquipe</span>
+  )
+</div>
+</div>
+</body>
+</html>
