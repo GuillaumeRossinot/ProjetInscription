@@ -14,9 +14,9 @@ public class MenuClient {
 
     public Menu menuHome() {
         Menu menu = new Menu("Menu Inscriptions Sportives");
-        /* ajout du menu compétition */
+        /* ajout du menu competition */
         menu.add( CompetitionMenu() );
-        /* ajout du menu équipe*/
+        /* ajout du menu equipe*/
         menu.add(equipeMenu());
         /* ajout du menu personne */
         menu.add(personneMenu());
@@ -75,7 +75,7 @@ public class MenuClient {
             new Action() {
                 @Override
                 public void optionSelected() {
-                    System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" + Inscriptions.getInscriptions().getCompetitions());
+                    System.out.println("\\r\n" + Inscriptions.getInscriptions().getCompetitions());
                 }
             });
     }
@@ -91,7 +91,7 @@ public class MenuClient {
                         System.out.println("Fin competition :");
                         int day = InOut.getInt("  Jour (jj) : ");
                         int month = InOut.getInt("  Mois (mm) : ");
-                        int year = InOut.getInt("  Année (yyyy) : ");
+                        int year = InOut.getInt("  Annee (yyyy) : ");
                         int choice = InOut.getInt("competition en equipe ? (2 pour Non, 1 pour oui) ");
                         boolean isTeam = false;
                         if(choice == 1){
@@ -191,7 +191,7 @@ public class MenuClient {
                         System.out.println("Nouvelle fin competition : ");
                         int day = InOut.getInt("  Jour (jj) : ");
                         int month = InOut.getInt("  Mois (mm) : ");
-                        int year = InOut.getInt("  Année (yyyy) : ");
+                        int year = InOut.getInt("  Annee (yyyy) : ");
                         LocalDate dateCloture = LocalDate.of(year, month, day);
                         competition.setDateCloture(dateCloture);
                     }
@@ -222,7 +222,7 @@ public class MenuClient {
     /* Ajout equipe competitions */
     private Option addEquipeToCompetition(Competition competition) {
         return new List<>(
-                "Ajouter équipe à la competition", "4",
+                "Ajouter equipe à la competition", "4",
                 new ListData<Equipe>()
                 {
                     @Override
@@ -258,7 +258,7 @@ public class MenuClient {
             new Action() {
                 @Override
                 public void optionSelected() {
-                    System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" + Inscriptions.getInscriptions().getEquipes());
+                    System.out.println("\r\n" + Inscriptions.getInscriptions().getEquipes());
                 }
             });
     }
@@ -323,6 +323,7 @@ public class MenuClient {
                     }
                 }
         );
+        
     }
     /* Menu modification equipe */
     private Option modifyEquipe(Equipe equipe) {
@@ -349,7 +350,7 @@ public class MenuClient {
     /* Ajout personne equipe */
     private Option addPersonToEquipe(Equipe equipe) {
         return new List<>(
-                "Ajouter personne  a l'equipe", "2",
+                "Ajouter personne a l'equipe", "2",
                 new ListData<Personne>()
                 {
                     @Override
@@ -392,7 +393,7 @@ public class MenuClient {
     /* Menu pour les personnes */
 
     private Menu personneMenu() {
-        Menu menu = new Menu("Menu Menu personnes", "Personnes", "c");
+        Menu menu = new Menu("Menu personnes", "Personnes", "c");
         menu.add( addPersonne() );
         menu.add( displayPersonne() );
         menu.add( managePers() );
@@ -405,7 +406,7 @@ public class MenuClient {
             new Action() {
                 @Override
                 public void optionSelected() {
-                    System.out.println( "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" + Inscriptions.getInscriptions().getPersonnes());
+                    System.out.println( "\r\n" + Inscriptions.getInscriptions().getPersonnes());
                 }
             }
     );
@@ -417,7 +418,7 @@ public class MenuClient {
                     @Override
                     public void optionSelected()
                     {
-                        String firstname = InOut.getString("Prénom : ");
+                        String firstname = InOut.getString("Prenom : ");
                         String name = InOut.getString("Nom : ");
                         String email = InOut.getString("Adresse e-mail : ");
                         Inscriptions.getInscriptions().createPersonne(name, firstname, email);
@@ -499,11 +500,11 @@ public class MenuClient {
     /* Changer prenom personne */
     private Option changerFirstname(Personne personne) {
         return new Option(
-                "Changer prénom", "2",
+                "Changer prenom", "2",
                 new Action() {
                     @Override
                     public void optionSelected() {
-                        personne.setPrenom(InOut.getString("Nouveau prénom : "));
+                        personne.setPrenom(InOut.getString("Nouveau prenom : "));
                     }
                 }
         );
