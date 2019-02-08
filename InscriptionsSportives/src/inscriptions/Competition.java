@@ -11,8 +11,8 @@ import inscriptions.Equipe;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Repr√©sente une comp√©tition, c'est-√†-dire un ensemble de candidats 
- * inscrits √† un √©v√©nement, les inscriptions sont closes √† la date dateCloture.
+ * ReprÈsente une compÈtition, c'est-‡†-dire un ensemble de candidats 
+ * inscrits ‡† un ÈvÈnement, les inscriptions sont closes ‡† la date dateCloture.
  *
  */
 
@@ -35,7 +35,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Retourne le nom de la comp√©tition.
+	 * Retourne le nom de la compÈtition.
 	 * @return
 	 */
 	
@@ -45,7 +45,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Modifie le nom de la comp√©tition.
+	 * Modifie le nom de la compÈtition.
 	 */
 	
 	public void setNom(String nom)
@@ -77,7 +77,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Est vrai si et seulement si les inscriptions sont r√©serv√©es aux √©quipes.
+	 * Est vrai si et seulement si les inscriptions sont rÈservÈes aux Èquipes.
 	 * @return
 	 */
 	
@@ -114,8 +114,8 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Inscrit un candidat de type Personne √† la comp√©tition. Provoque une
-	 * exception si la comp√©tition est r√©serv√©e aux √©quipes ou que les 
+	 * Inscrit un candidat de type Personne √† la compÈtition. Provoque une
+	 * exception si la comp√©tition est rÈservÈe aux Èquipes ou que les 
 	 * inscriptions sont closes.
 	 * @param personne
 	 * @return
@@ -137,8 +137,8 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 
 	/**
-	 * Inscrit un candidat de type Equipe √† la comp√©tition. Provoque une
-	 * exception si la comp√©tition est r√©serv√©e aux personnes ou que 
+	 * Inscrit un candidat de type Equipe √† la compÈtition. Provoque une
+	 * exception si la compÈtition est rÈservÈe aux personnes ou que 
 	 * les inscriptions sont closes.
 	 * @param personne
 	 * @return
@@ -155,8 +155,8 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Retourne les Candidats que l'on peut inscrire √† cette competition.
-	 * @return les candidats que l'on peut inscrire √† cette comp√©tition.
+	 * Retourne les Candidats que l'on peut inscrire ‡† cette competition.
+	 * @return les candidats que l'on peut inscrire ‡† cette compÈtition.
 	 */
 	
 	public Set<Candidat> getCandidatsAInscrire()
@@ -172,7 +172,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 
 	/**
-	 * D√©sinscrit un candidat.
+	 * DÈsinscrit un candidat.
 	 * @param candidat
 	 * @return
 	 */
@@ -184,7 +184,7 @@ public class Competition implements Comparable<Competition>, Serializable
 	}
 	
 	/**
-	 * Supprime la comp√©tition de l'application.
+	 * Supprime la compÈtition de l'application.
 	 */
 	
 	public void delete()
